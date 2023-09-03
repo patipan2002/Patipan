@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patipan</title>
+</head>
+<body>
+    <style>
+    body {
+        background-color: rgb(241, 201, 247);
+      }
+      h1 {
+        color: rgb(0, 0, 0);
+        text-align: center;
+      }
+      p {
+        font-family: verdana;
+        font-size: 20px;
+      }
+      </style>
+    <h1>ประวัติส่วนตัว</h1>
+    <p id="demo">ชื่อและประวัติการทำงาน</p>
+
+    <button
+    type="button"
+        onclick="document.getElementById('demo').innerHTML = 'ชื่อ ปฏิภาณ เพลงน้อย <br> ชื่อเล่น เฟิร์ส <br> อายุ21ปี <br> ปัจจุบันกำลังศึกษาปริญญาตรี    '"
+    >
+        ชื่อและประวัติส่วนตัว!
+    </button>
+    <br />
+    <button 
+        type="button"
+        onclick="document.getElementById('demo').innerHTML = 'ทำงานอยู่บริษัท กราฟิกออโตเมชั่นโซลูชั่น <br> ตำแหน่ง พนักงานทั่วไป <br> งานอดิเรก ฟังเพลง เล่นเกม <br> แรงบันดาล ไม่มี '"
+    >
+        บริษัทและงานอดิเรก
+    </button>
+    <br />
+    <button 
+        type="button"
+        onclick="document.getElementById('demo').innerHTML = 'สวัสดีครับ'"
+    >
+        Back
+    </button>
+</body>
+</html>
